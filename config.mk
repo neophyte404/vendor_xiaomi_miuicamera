@@ -8,7 +8,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     MiuiCameraLeica \
-    MiuiExtraPhoto 
+    MiuiExtraPhoto
 
 # Props
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -16,3 +16,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera
+
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
